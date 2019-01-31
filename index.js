@@ -28,5 +28,5 @@ do {
   emptyArray.push("I love the Beatles!")
   incrementVariable();
 } while (i < 15);
-return emptyArray;  
+return emptyArray;
 }
