@@ -20,13 +20,10 @@ return newArray;
 
 function iLoveTheBeatles (n) {
 var emptyArray = [];
-var i = 0;
-function incrementVariable() {
-  i = i + 1;
-}
+let i = n;
 do {
   emptyArray.push("I love the Beatles!")
-  incrementVariable();
+  i++;
 } while (i < 15);
 return emptyArray;
 }
