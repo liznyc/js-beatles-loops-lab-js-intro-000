@@ -11,10 +11,9 @@ return MyArray;
 function johnLennonFacts (array) {
 let newArray = []
 var n = 0;
-  while (n < johnLennonFacts.length) {
+  while (n < array.length) {
+    newArray.push(array[n] +"!!!");
     n++
-    newArray.push(johnLennonFacts[n] +"!!!");
-
 }
 return newArray;
 }
