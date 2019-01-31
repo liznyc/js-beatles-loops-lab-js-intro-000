@@ -7,3 +7,12 @@ for (let i = 0; i < musicians.length; i++) {
 }
 return MyArray;
 }// add solution here
+
+function johnLennonFacts (array) {
+var n = 0;
+  while (n < johnLennonFacts.length) {
+    n++
+  johnLennonFacts[n] = johnLennonFacts[n]+"!!!"
+    
+}
+}
