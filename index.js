@@ -13,6 +13,6 @@ var n = 0;
   while (n < johnLennonFacts.length) {
     n++
   johnLennonFacts[n] = johnLennonFacts[n]+"!!!"
-    
+
 }
 }
