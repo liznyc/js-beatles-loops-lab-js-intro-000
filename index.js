@@ -1,4 +1,4 @@
-function theBeatlesPlays (musicians, instruments) {
+function theBeatlesPlay (musicians, instruments) {
 
 var MyArray = [];
 
