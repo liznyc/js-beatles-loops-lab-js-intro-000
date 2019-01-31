@@ -17,3 +17,16 @@ var n = 0;
 }
 return newArray;
 }
+
+function iLoveTheBeatles (n) {
+var emptyArray = [];
+var i = 0;
+function incrementVariable() {
+  i = i + 1;
+}
+do {
+  emptyArray.push("I love the Beatles!")
+  incrementVariable();
+} while (i < 15);
+return emptyArray;  
+}
